@@ -6,8 +6,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: work around permission issue
-        run: git config --global --add safe.directory /github/workspace/build
       - uses: actions/checkout@v2
 
       - name: Generate static React files
@@ -17,7 +15,7 @@ jobs:
       - run: npm install
       - run: npm run build
 
-      - name: Init new repo in dist folder and commit generated files
+      - name: Init new repo in build folder and commit generated files
         run: |
           cd build
           git init
@@ -25,7 +23,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m 'deploy'
-      - name: Force push to destination branch
+          
+      - name: Force push to gh-pages branch
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
