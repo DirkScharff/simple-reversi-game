@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simple-reversi-game/static/css/main.e6c13ad2.css",
+    "main.js": "/simple-reversi-game/static/js/main.2fac8485.js",
+    "static/js/787.516ed121.chunk.js": "/simple-reversi-game/static/js/787.516ed121.chunk.js",
+    "index.html": "/simple-reversi-game/index.html",
+    "main.e6c13ad2.css.map": "/simple-reversi-game/static/css/main.e6c13ad2.css.map",
+    "main.2fac8485.js.map": "/simple-reversi-game/static/js/main.2fac8485.js.map",
+    "787.516ed121.chunk.js.map": "/simple-reversi-game/static/js/787.516ed121.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2fac8485.js"
+  ]
+}
