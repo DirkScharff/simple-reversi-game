@@ -13,10 +13,10 @@
               },
               "runOptions": { "runOn": "folderOpen" }
         },
-      {
-        "label": "run wallaby on startup",
-        "command": "wallaby.start",
-        "runOptions": { "runOn": "folderOpen" }
-      }  
+        {
+            "label": "run wallaby on startup",
+            "command": "${command:wallaby.start}",
+            "runOptions": { "runOn": "folderOpen" }
+        }
     ]
 }
