@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Simple Reversi Game
+
+You can play it at [Github Pages](https://dirkscharff.github.io/simple-reversi-game/)
+
+# Default React Help:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
