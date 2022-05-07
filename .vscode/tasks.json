@@ -6,12 +6,17 @@
         {
             "label": "run yarn start on startup",
             "type": "shell",
-            "command": "yarn start",
+            "command": "npm run start",
             "presentation": {
                 "reveal": "always",
                 "panel": "new"
               },
               "runOptions": { "runOn": "folderOpen" }
-        }
+        },
+      {
+        "label": "run wallaby on startup",
+        "command": "wallaby.start",
+        "runOptions": { "runOn": "folderOpen" }
+      }  
     ]
 }
